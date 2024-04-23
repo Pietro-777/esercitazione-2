@@ -1,0 +1,16 @@
+.customList ul{
+    padding: 0;
+    list-style: none;
+    counter-reset: listItem;
+}
+
+.customList .listItem::before{
+    counter-increment: listItem;
+    content: "elemnto" counter(listItmen)"."
+}
+
+  .customList  li:before {
+    color: red;
+    content: ".0" counter(listItem);
+    counter-increment: listItem;
+  }
