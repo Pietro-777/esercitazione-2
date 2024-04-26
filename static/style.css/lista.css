@@ -1,0 +1,30 @@
+ol{
+  counter-reset: listItem;
+  list-style: none;
+  padding: 0;
+}
+
+li:before {
+  content: ".0" counter(listItem);
+  counter-increment: listItem;
+  display: block;
+  border-bottom: #707070 1px solid;
+  font-size: 70px;
+  color: #707070;
+  font-family: "Merriweather", serif;
+  padding-top: 104px;
+
+}
+
+.customLink{
+  color: red;
+  margin-top: 34px;
+}
+
+
+.listItem{
+  color: #707070;
+  font-family: "Merriweather", serif;
+  font-size: 22px;
+  margin-top: 15px;
+}

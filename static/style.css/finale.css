@@ -1,0 +1,15 @@
+.hero-final{
+    background-color: #ECCEFF;
+    padding-bottom: 200PX;
+    padding-top: 80px;
+    margin-top: 170px;
+}
+
+.stile{
+    font-family: "Merriweather", serif;
+}
+
+.stile h4{
+    color: #707070;
+    font-size: 22px;
+}
