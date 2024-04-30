@@ -5,7 +5,7 @@ ol{
 }
 
 li:before {
-  content: ".0" counter(listItem);
+  content: "0" counter(listItem) ".";
   counter-increment: listItem;
   display: block;
   border-bottom: #707070 1px solid;
